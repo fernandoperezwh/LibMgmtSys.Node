@@ -1,0 +1,25 @@
+{
+  "name": "libmgmtsys.node",
+  "version": "1.0.0",
+  "description": "Library Management System - Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandoperezwh/LibMgmtSys.Node.git"
+  },
+  "author": "Fernando Perez Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandoperezwh/LibMgmtSys.Node/issues"
+  },
+  "homepage": "https://github.com/fernandoperezwh/LibMgmtSys.Node#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.33.0",
+    "sqlite3": "^5.1.6"
+  }
+}
